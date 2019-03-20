@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import "./StartGame.css";
 
 const StartGame = () => {
     return(
         <div>
-            <Button variant="primary" size="lg" block>
+            <Button className="startButton">
                 Let's Play
             </Button>
         </div>

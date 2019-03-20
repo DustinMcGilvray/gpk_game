@@ -1,0 +1,8 @@
+.startButton {
+    background-color: red;
+    border: none;
+}
+
+.startButton:hover {
+    background-color: black;
+}

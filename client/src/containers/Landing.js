@@ -1,12 +1,14 @@
 import React, { Component } from "react";
+import Container from 'react-bootstrap/Container';
 import StartGameButton from "../components/StartGameButton/StartGame";
-
+import Carousel from "../components/Carousel/Carousel";
 class Landing extends Component {
     render() {
         return (
-        <div>
-            <StartGameButton/>
-        </div>
+        <Container fluid="true">
+        <Carousel/>
+        <StartGameButton/>
+        </Container>
         )      
     }
 };
